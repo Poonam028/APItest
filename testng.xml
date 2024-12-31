@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/HCL/IdeaProjects/APItest">
+        <classes>
+            <class name="RestAssuredBasics.APITesting_GET_TestNG">
+                <methods>
+                    <include name="test_GET_Request"/>
+                </methods>
+            </class>
+            <class name="RestAssuredBasics.APITesting_GET_TestNG_Negative">
+                <methods>
+                    <include name="test_GET_Request"/>
+                </methods>
+            </class>
+            <class name="SampleCheck.APITest005BDDStyleGET">
+                <methods>
+                    <include name="Test_Get_Request_Positive"/>
+                </methods>
+            </class>
+            <class name="SampleCheck.APITest006NonBDDStyle">
+                <methods>
+                    <include name="TestNonBDDStyle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
